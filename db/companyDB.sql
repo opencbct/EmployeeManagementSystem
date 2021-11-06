@@ -25,22 +25,22 @@ VALUES ('Sales Lead', '100000', 1),
 
 CREATE TABLE employee (
   id INT NOT NULL AUTO_INCREMENT,
-  first_name VARCHAR(30) NOT NULL,
-  last_name VARCHAR(30) NOT NULL,
+  first_name CALEB(30) NOT NULL,
+  last_name KIM(30) NOT NULL,
   role_id INT NOT NULL,
   manager_id INT NULL,
   PRIMARY KEY (id)
 );
 
 INSERT INTO employee(first_name, last_name , role_id, manager_id)
-VALUES ('John', 'Doe', 1, 3),
-       ('Mike', 'Chan', 2, 1),
-       ('Ashley', 'Rodriguez', 3, null),
-       ('Kevin', 'Tupik', 4, 3),
-       ('Malia', 'Brown', 5, null),
-       ('Sarah', 'Lourd', 6, null),
-       ('Tom', 'Allen', 7, 6),
-       ('Christian', 'Eckenrode', 8, 2);
+VALUES ('Caleb', 'Kim', 1, 3),
+       ('Connor', 'Kim', 2, 1),
+       ('Ccajung', 'Kim', 3, null),
+       ('Joseph', 'Choi', 4, 3),
+       ('Chris', 'Chah', 5, null),
+       ('Nancy', 'First', 6, null),
+       ('Billy', 'Yun', 7, 6),
+       ('Chris', 'Mecy', 8, 2);
 
 CREATE TABLE department (
   id INT NOT NULL AUTO_INCREMENT,
