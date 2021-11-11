@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/congmul/employee_tracker.git"
+    "url": "https://github.com/opencbct/EmployeeManagementSystem"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/congmul/employee_tracker/issues"
+    "url": "https://github.com/opencbct/EmployeeManagementSystem"
   },
-  "homepage": "https://github.com/congmul/employee_tracker#readme",
+  "homepage": "https://github.com/opencbct/EmployeeManagementSystem",
   "dependencies": {
     "inquirer": "^7.3.3",
     "mysql": "^2.18.1"
