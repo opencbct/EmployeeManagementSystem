@@ -1,14 +1,13 @@
 const Title = require("./assets/js/appTitle");
 const inquirer = require("inquirer");
-const mysql = require("mysql");
+const mysql = require("mysql2");
 
 let title = new Title();
 
 const connection = mysql.createConnection({
     host: "localhost",
 
-    // Your port; if not 3306
-    port: 3000,
+port: 3306, 
 
     // Your username
     user: "root",
