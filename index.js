@@ -58,18 +58,8 @@ function menuInquirer() {
             } else if (res.menu === "View All Employees") {
                 order = "ORDER BY id"
                 viewSql(order);
-            } else if (res.menu === "View All Employees By Department") {
-                order = "ORDER BY department"
-                viewSql(order);
-            } else if (res.menu === "View All Employees By Manager") {
-                order = "ORDER BY manager"
-                viewSql(order);
             } else if (res.menu === "Add Employees") {
                 addEmployeeSql();
-            } else if (res.menu === "Update Employee Manager") {
-                updateEmployeeSql();
-            } else if (res.menu === "Remove Employee") {
-                deleteEmployeeSql();
             } else if (res.menu === "Update Employee Role") {
                 updateEmployeeRole();
             } else if (res.menu === "View All Roles") {
