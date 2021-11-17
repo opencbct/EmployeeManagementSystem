@@ -125,7 +125,7 @@ function addEmployeeSql() {
                 }
             }
 
-            
+        }) }    
             
 
 
@@ -264,4 +264,3 @@ function deleteRoleSql() {
         }
     );
 }
-
